@@ -1,0 +1,1224 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+	<title>Discontinuities</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7e8fa2e9-f49e-4eb6-a676-5be2f1aeb0d7</md:uuid>
+</metadata>
+	<content>
+		<para id="element-21">Vertical Asymptotes occur when factors in the denominator = 0 and do not cancel with factors in the numerator
+<list id="element-15" list-type="bulleted"><item><term>Vertical asymptotes</term> are vertical lines the graph approaches</item>
+				<item>The equation of the vertical asymptote is x = (that number which makes the denominator = 0)</item></list>
+Holes (<term>Removable Discontinuities</term>) occur when the factor in the denominator = 0 and it cancels with like factors in the numerator.
+<list id="element-68" list-type="bulleted"><item>Holes are open "points" so they have an x and y coordinate</item>
+				<item>The x-value is the number that makes the cancelled factor = 0.</item>
+				<item>The y-value is found by substituting x into the "reduced" equation (<emphasis>after</emphasis> cancelling) like factors.</item>
+			</list></para><para id="element-707">Find the vertical asymptotes and holes (if any) for the following. Don't forget that vertical asymptotes are equations and holes are points!</para><example id="element-995"><para id="element-744"><m:math><m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:cn>1</m:cn><m:ci>x</m:ci></m:apply></m:apply>
+				</m:math>
+			</para><para id="element-742">Vertical Asymptote: <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>0</m:cn></m:apply></m:math></para><para id="element-403">Hole: None</para></example>
+		<example id="element-348"><para id="element-409"><m:math>
+					<m:apply><m:eq/>
+						<m:ci>y</m:ci>
+						<m:apply><m:divide/>
+							<m:apply><m:times/>
+								<m:ci>x</m:ci>
+								<m:apply><m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:minus/>
+								<m:ci>x</m:ci>
+								<m:cn>1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:apply>
+				</m:math></para><para id="element-828">Vertical Asymptote: None</para><para id="element-223">Hole: (1,1) since (x-1) was cancelled, the hole is at x=1. To find the y-coordinate, plug 1 into the reduced equation: 
+<m:math>
+					<m:apply><m:eq/>
+						<m:apply><m:eq/>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:ci>x</m:ci>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>1</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:ci>x</m:ci>
+						</m:apply>
+						<m:cn>1</m:cn>
+					</m:apply>
+				</m:math></para>
+		</example><exercise id="element-373"><problem id="idp6715568">
+				<para id="element-0"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:times/>
+										<m:cn>4</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+									<m:cn>3</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>7</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp12626944">
+				<para id="element-376">Vertical Asymptote: <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>7</m:cn></m:apply></m:math> 
+since
+<m:math><m:apply><m:eq/>
+							<m:apply><m:minus/><m:ci>x</m:ci><m:cn>7</m:cn></m:apply><m:cn>0</m:cn></m:apply>
+					</m:math></para>
+				<para id="element-753">Hole: None</para>
+			</solution></exercise><exercise id="element-824"><problem id="idp9211120">
+				<para id="element-172"><m:math>
+						<m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:apply><m:times/><m:cn>9</m:cn><m:ci>x</m:ci></m:apply><m:apply><m:minus/><m:cn>3</m:cn><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply></m:apply></m:apply></m:apply>
+					</m:math></para></problem>
+			<solution id="idp5557712">
+				<para id="element-410">Vertical Asymptote: <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:apply><m:divide/><m:ci>3</m:ci><m:ci>2</m:ci></m:apply></m:apply></m:math> 
+since <m:math><m:apply><m:eq/><m:apply><m:minus/><m:cn>3</m:cn><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>, <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:apply><m:divide/><m:ci>3</m:ci><m:ci>2</m:ci></m:apply></m:apply></m:math>
+				</para>
+				<para id="element-755">Hole: None</para>
+			</solution>
+		</exercise><exercise id="element-402"><problem id="idp5924880">
+				<para id="element-366"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>7</m:cn>
+								<m:apply>
+									<m:times/>
+									<m:apply>
+										<m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>9</m:cn>
+									</m:apply>
+									<m:apply>
+										<m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn>1</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp7913280">
+				<para id="element-337">Vertical Asymptote: <m:math>
+						<m:apply><m:eq/><m:ci>x</m:ci><m:cn>9</m:cn></m:apply>
+					</m:math>,
+<m:math>
+						<m:apply><m:eq/><m:ci>x</m:ci><m:apply><m:minus/><m:cn>1</m:cn></m:apply></m:apply>
+					</m:math>
+since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>9</m:cn>
+						</m:apply>
+					</m:math> and 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:minus/><m:cn>1</m:cn></m:apply>
+						</m:apply>
+					</m:math></para>
+				<para id="element-363">Hole: None</para>
+			</solution></exercise>
+		<exercise id="element-159"><problem id="idp6378192">
+				<para id="element-137"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:times/>
+									<m:cn>7</m:cn>
+									<m:ci>x</m:ci>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:minus/>
+										<m:apply>
+											<m:times/>
+											<m:cn>2</m:cn>
+											<m:apply>
+												<m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+										</m:apply>
+										<m:apply>
+											<m:times/>
+											<m:cn>7</m:cn>
+											<m:ci>x</m:ci>
+										</m:apply>
+									</m:apply>
+									<m:cn>3</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp8082048">
+				<para id="element-524">Vertical Asymptote: <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply></m:apply></m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci><m:cn>3</m:cn>
+						</m:apply>
+					</m:math>
+	 since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:minus/>
+									<m:apply>
+										<m:times/>
+										<m:cn type="integer">2</m:cn>
+										<m:apply>
+											<m:power/>
+											<m:ci>x</m:ci>
+											<m:cn type="integer">2</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply>
+										<m:times/>
+										<m:cn type="integer">7</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+								</m:apply>
+								<m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:times/>
+								<m:apply>
+									<m:minus/>
+									<m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply>
+									<m:cn>1</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>3</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,   <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:minus/>
+								<m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply>
+								<m:cn>1</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math> and 
+<m:math>
+						<m:apply><m:eq/>
+							<m:apply>
+								<m:minus/>
+								<m:ci>x</m:ci>
+								<m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply>
+						</m:apply>
+					</m:math>
+and
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math></para>
+				<para id="element-728">Hole: None</para>
+			</solution></exercise><exercise id="element-591"><problem id="idp12917776">
+				<para id="element-129"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:times/>
+										<m:cn>2</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+									<m:cn type="integer">1</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:power/>
+									<m:apply>
+										<m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">5</m:cn>
+									</m:apply>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp12797824">
+				<para id="element-146">Vertical Asymptote: <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:minus/><m:cn>5</m:cn></m:apply>
+						</m:apply>
+					</m:math>
+since
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:power/>
+								<m:apply><m:plus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply>
+								<m:cn>2</m:cn></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply></m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:plus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:minus/><m:cn>5</m:cn></m:apply>
+						</m:apply>
+					</m:math></para>
+				<para id="element-350">Hole: None</para>
+			</solution></exercise><exercise id="element-632"><problem id="idp5337984">
+				<para id="element-499"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">3</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:power/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">2</m:cn>
+									</m:apply>
+									<m:cn type="integer">25</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp12087248">
+				<para id="element-332">Vertical Asymptote: None  since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:power/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">25</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+							<m:apply><m:minus/><m:cn>25</m:cn></m:apply>
+						</m:apply>
+					</m:math>, a number squared will never be negative</para>
+				<para id="element-622">
+Hole: None
+</para>
+			</solution></exercise><exercise id="element-392"><problem id="idp8046800">
+				<para id="element-40"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">7</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:power/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">2</m:cn>
+									</m:apply>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para>
+			</problem>
+			<solution id="idm25200">
+				<para id="element-845">Vertical Asymptote: None since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:power/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">2</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+							<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+						</m:apply>
+					</m:math> and any number squared will never be a negative number</para>
+				<para id="element-508">Hole: None</para>
+			</solution></exercise><exercise id="element-858"><problem id="idp7463600">
+				<para id="element-734"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>5</m:cn>
+								<m:apply>
+									<m:abs/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm1613408"><para id="element-166">Vertical Asymptote: <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply></m:math>
+since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:abs/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math></para><para id="element-304">Hole: None</para>
+			</solution></exercise><exercise id="element-543"><problem id="idp9505584">
+				<para id="element-738"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>4</m:cn>
+								<m:apply>
+									<m:minus/>
+									<m:apply><m:abs/><m:ci>x</m:ci></m:apply>
+									<m:cn>4</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idp12979840">
+				<para id="element-486">Vertical asymptotes: <m:math>
+						<m:apply><m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>-4</m:cn>
+						</m:apply>
+					</m:math> and 
+<m:math>
+						<m:apply><m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>4</m:cn>
+						</m:apply>
+					</m:math> since 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:minus/>
+								<m:apply>
+									<m:abs/>
+									<m:ci>x</m:ci>
+								</m:apply>
+								<m:cn>4</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:apply>
+								<m:abs/>
+								<m:ci>x</m:ci>
+							</m:apply>
+							<m:cn>4</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>-4</m:cn>
+						</m:apply>
+					</m:math> and
+<m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>4</m:cn>
+						</m:apply>
+					</m:math></para>
+				<para id="element-821">
+Hole: None
+</para>
+			</solution></exercise><exercise id="element-74"><problem id="idm252656">
+				<para id="element-476">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>3</m:cn>
+									<m:apply><m:minus/>
+										<m:apply><m:minus/>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:ci>x</m:ci>
+										</m:apply>
+										<m:cn>6</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:times/>
+									<m:cn>4</m:cn>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:cn>9</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idp5243184">
+				<para id="element-341">
+			Vertical Asymptote: <m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-3</m:cn></m:apply></m:math>
+				</para>
+				<para id="element-295">Hole: (3, <m:math><m:apply><m:divide/><m:cn>5</m:cn><m:cn>8</m:cn></m:apply></m:math>)
+since <m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:cn>3</m:cn>
+										<m:apply><m:minus/>
+											<m:apply><m:minus/>
+												<m:apply><m:power/>
+													<m:ci>x</m:ci>
+													<m:cn>2</m:cn>
+												</m:apply>
+												<m:ci>x</m:ci>
+											</m:apply>
+											<m:cn>6</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:cn>4</m:cn>
+										<m:apply><m:minus/>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:cn>9</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:cn>3</m:cn>
+										<m:apply><m:times/>
+											<m:apply><m:minus/>
+												<m:ci>x</m:ci>
+												<m:cn>3</m:cn>
+											</m:apply>
+											<m:apply><m:plus/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:cn>4</m:cn>
+										<m:apply><m:times/>
+											<m:apply><m:plus/>
+												<m:ci>x</m:ci>
+												<m:cn>3</m:cn>
+											</m:apply>
+											<m:apply><m:minus/>
+												<m:ci>x</m:ci>
+												<m:cn>3</m:cn>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>3</m:cn>
+									<m:apply><m:times/>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:times/>
+									<m:cn>4</m:cn>
+									<m:apply><m:times/>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>3</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>,
+(x-3) was cancelled, so the hole is at x=3. To find the y-coordinate, plug 3 into the reduced equation: <m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:eq/>
+									<m:apply><m:divide/>
+										<m:apply><m:times/>
+											<m:cn>3</m:cn>
+											<m:apply><m:times/>
+												<m:apply><m:plus/>
+													<m:cn>3</m:cn>
+													<m:cn>2</m:cn>
+												</m:apply>
+											</m:apply>
+										</m:apply>
+										<m:apply><m:times/>
+											<m:cn>4</m:cn>
+											<m:apply><m:times/>
+												<m:apply><m:plus/>
+													<m:cn>3</m:cn>
+													<m:cn>3</m:cn>
+												</m:apply>
+											</m:apply>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:divide/>
+										<m:apply><m:times/>
+											<m:cn>3</m:cn>
+											<m:cn>5</m:cn>
+										</m:apply>
+										<m:apply><m:times/>
+											<m:cn>4</m:cn>
+											<m:cn>6</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:cn>15</m:cn>
+									<m:cn>24</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:divide/>
+								<m:cn>5</m:cn>
+								<m:cn>8</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para>
+			</solution>
+		</exercise><exercise id="element-692"><problem id="idp13092528">
+				<para id="element-763">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>-2</m:cn>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:cn>4</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:times/>
+									<m:cn>3</m:cn>
+									<m:apply><m:plus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:times/>
+											<m:cn>4</m:cn>
+											<m:ci>x</m:ci>
+										</m:apply>
+										<m:cn>4</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idp12358544">
+				<para id="element-642">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:cn>-2</m:cn>
+										<m:apply><m:minus/>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:cn>4</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:cn>3</m:cn>
+										<m:apply><m:plus/>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:apply><m:times/>
+												<m:cn>4</m:cn>
+												<m:ci>x</m:ci>
+											</m:apply>
+											<m:cn>4</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:cn>-2</m:cn>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:cn>3</m:cn>
+										<m:apply><m:power/>
+											<m:apply><m:plus/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:cn>2</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>-2</m:cn>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:times/>
+									<m:cn>3</m:cn>
+									<m:apply><m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+				<para id="element-640">Vertical Asymptote: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math></para>
+				<para id="element-269">Hole: None
+ since the vertical asymptote takes care of the hole. </para>
+			</solution>
+		</exercise><exercise id="element-715"><problem id="idp8925696">
+				<para id="element-211">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:minus/>
+									<m:apply><m:power/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+									<m:cn>4</m:cn>
+								</m:apply>
+								<m:apply><m:plus/>
+									<m:ci>x</m:ci>
+									<m:cn>2</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idp8362432">
+				<para id="element-391">
+			Vertical Asymptote: None
+		</para>
+				<para id="element-437">Hole: (-2,-4) since <m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:cn>4</m:cn>
+									</m:apply>
+									<m:apply><m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:minus/>
+								<m:ci>x</m:ci>
+								<m:cn>2</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math>, (x+2) was cancelled, so the hole is at x = -2. To find the y-coordinate, plug -2 into the reduced equation: 
+<m:math><m:apply><m:eq/>
+							<m:apply><m:minus/>
+								<m:cn>-2</m:cn>
+								<m:cn>2</m:cn>
+							</m:apply>
+							<m:cn>-4</m:cn>
+						</m:apply>
+					</m:math></para>
+			</solution>
+		</exercise><exercise id="element-729"><problem id="idp10647840">
+				<para id="element-559">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:apply><m:power/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>3</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:apply><m:power/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:cn>3</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idm1317824">
+				<para id="element-221">
+			Vertical Asymptotes: None
+		</para>
+				<para id="element-238">Holes: (3,3), (0,0) since <m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>3</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:times/>
+											<m:cn>3</m:cn>
+											<m:ci>x</m:ci>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>3</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:ci>x</m:ci>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>3</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:ci>x</m:ci>
+						</m:apply>
+					</m:math>, x and (x-3) were cancelled, so the holes are at x=0 and x=3. To find the y-coordinate, plug 0 and 3 into the reduced equation: 0, 3
+		</para>
+			</solution>
+		</exercise><exercise id="element-481"><problem id="idm1103552">
+				<para id="element-584">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:minus/>
+									<m:apply><m:power/>
+										<m:ci>x</m:ci>
+										<m:cn>3</m:cn>
+									</m:apply>
+									<m:cn>1</m:cn>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idp11792528">
+				<para id="element-250">
+			Vertical Asymptote: None
+		</para>
+				<para id="element-573">Hole: (1,3) since <m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>3</m:cn>
+										</m:apply>
+										<m:cn>1</m:cn>
+									</m:apply>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>1</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>1</m:cn>
+										</m:apply>
+										<m:apply><m:plus/>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+											<m:ci>x</m:ci>
+											<m:cn>1</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>1</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:plus/>
+								<m:apply><m:power/>
+									<m:ci>x</m:ci>
+									<m:cn>2</m:cn>
+								</m:apply>
+								<m:ci>x</m:ci>
+								<m:cn>1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math>, (x-1) was cancelled, so the hole is at x=1. To find the y-coordinate, plug 1 into the reduced equation: 
+<m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:plus/>
+								<m:apply><m:power/>
+									<m:cn>1</m:cn>
+									<m:cn>2</m:cn>
+								</m:apply>
+								<m:cn>1</m:cn>
+								<m:cn>1</m:cn>
+							</m:apply>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math>
+				</para>
+			</solution>
+		</exercise><exercise id="element-867"><problem id="idp12819760">
+				<para id="element-204">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply><m:divide/>
+								<m:apply><m:minus/>
+									<m:apply><m:minus/>
+										<m:apply><m:times/>
+											<m:cn>2</m:cn>
+											<m:apply><m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+										</m:apply>
+										<m:apply><m:times/>
+											<m:cn>3</m:cn>
+											<m:ci>x</m:ci>
+										</m:apply>
+									</m:apply>
+									<m:cn>5</m:cn>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:apply><m:power/>
+										<m:ci>x</m:ci>
+										<m:cn>2</m:cn>
+									</m:apply>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+			</problem>
+			<solution id="idp8430240">
+				<para id="element-384">
+					<m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:eq/>
+								<m:apply><m:divide/>
+									<m:apply><m:minus/>
+										<m:apply><m:minus/>
+											<m:apply><m:times/>
+												<m:cn>2</m:cn>
+												<m:apply><m:power/>
+													<m:ci>x</m:ci>
+													<m:cn>2</m:cn>
+												</m:apply>
+											</m:apply>
+											<m:apply><m:times/>
+												<m:cn>3</m:cn>
+												<m:ci>x</m:ci>
+											</m:apply>
+										</m:apply>
+										<m:cn>5</m:cn>
+									</m:apply>
+									<m:apply><m:minus/>
+										<m:apply><m:power/>
+											<m:ci>x</m:ci>
+											<m:cn>2</m:cn>
+										</m:apply>
+										<m:cn>1</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:divide/>
+									<m:apply><m:times/>
+										<m:apply><m:times/>
+											<m:cn>2</m:cn>
+											<m:apply><m:minus/>
+												<m:ci>x</m:ci>
+												<m:cn>5</m:cn>
+											</m:apply>
+										</m:apply>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>1</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply><m:times/>
+										<m:apply><m:plus/>
+											<m:ci>x</m:ci>
+											<m:cn>1</m:cn>
+										</m:apply>
+										<m:apply><m:minus/>
+											<m:ci>x</m:ci>
+											<m:cn>1</m:cn>
+										</m:apply>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>2</m:cn>
+									<m:apply><m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>5</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math>
+				</para>
+				<para id="element-297">
+			Vertical asymptote: 
+<m:math>
+						<m:apply><m:eq/>
+							<m:ci>x</m:ci>
+							<m:cn>1</m:cn>
+						</m:apply>
+					</m:math> since
+<m:math>
+						<m:apply><m:eq/>
+							<m:apply><m:minus/>
+								<m:ci>x</m:ci>
+								<m:cn>1</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>
+				</para>
+				<para id="element-423">Hole: (-1, <m:math>
+						<m:apply><m:divide/>
+							<m:cn>7</m:cn>
+							<m:cn>2</m:cn>
+						</m:apply>
+					</m:math>
+)
+Since (x+1) was cancelled, the hole is at x= -1. To find the y-coordinate, plug -1 into the reduced equation: 
+<m:math><m:apply><m:eq/>
+							<m:apply><m:divide/>
+								<m:apply><m:times/>
+									<m:cn>2</m:cn>
+									<m:apply><m:minus/>
+										<m:cn>-1</m:cn>
+										<m:cn>5</m:cn>
+									</m:apply>
+								</m:apply>
+								<m:apply><m:minus/>
+									<m:cn>-1</m:cn>
+									<m:cn>1</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:apply><m:divide/><m:cn>7</m:cn><m:cn>2</m:cn></m:apply>
+						</m:apply>
+					</m:math></para>
+			</solution>
+		</exercise>
+	</content>
+</document>

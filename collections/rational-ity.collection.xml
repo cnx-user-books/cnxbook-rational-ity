@@ -1,0 +1,42 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10350</md:content-id>
+    <md:title>"Rational"ity</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>8f1170b3-165e-41fe-87de-408735701f5f</md:uuid>
+<md:slug>rational-ity</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Prolegomena</md:title>
+      <col:content>
+        <col:module document="m13596"/>
+        <col:module document="m13602"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Domain Knowledge</md:title>
+      <col:content>
+        <col:module document="m13352"/>
+        <col:module document="m13583"/>
+        <col:module document="m13607"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Astounding Analysis</md:title>
+      <col:content>
+        <col:module document="m13605"/>
+        <col:module document="m13606"/>
+        <col:module document="m13608"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Synthesize This</md:title>
+      <col:content>
+        <col:module document="m13604"/>
+        <col:module document="m13595"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

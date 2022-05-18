@@ -1,0 +1,613 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Finding the Domain of Radical Functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>40e54834-6e57-4f45-9848-f79169e6e9c7</md:uuid>
+</metadata>
+  <content>
+    
+<para id="element-574">When finding the domain of even-degree roots, the expression under the radical must be greater than or equal to 0.</para><example id="element-630"><para id="element-969">Find the domain of <m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/>
+		<m:ci>x</m:ci>
+		</m:apply>
+	</m:apply>
+</m:math></para><para id="element-987"><m:math>
+
+<m:set>
+	<m:bvar>
+	<m:ci>x</m:ci>
+	</m:bvar>
+	<m:condition>
+	<m:apply>
+	<m:geq/>
+	<m:ci>x</m:ci>
+	<m:cn>0</m:cn>
+	</m:apply>
+	</m:condition>
+</m:set>
+</m:math></para></example><para id="element-485">PRACTICE - Find the Domain of the following:</para><exercise id="element-234"><problem id="idp13267008">
+<para id="element-966"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/>
+		<m:apply><m:minus/><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply><m:cn>5</m:cn></m:apply>
+		</m:apply>
+	</m:apply>
+</m:math></para></problem>
+
+<solution id="idp13531184">
+<para id="element-274"><m:math>
+<m:apply>
+<m:set>
+	<m:bvar>
+	<m:ci>x</m:ci>
+	</m:bvar>
+	<m:condition>
+	<m:apply>
+	<m:geq/>
+	<m:ci>x</m:ci>
+	<m:apply><m:divide/><m:cn>5</m:cn><m:cn>2</m:cn></m:apply>
+	</m:apply>
+	</m:condition>
+</m:set>
+</m:apply>
+</m:math> since <m:math>
+	<m:apply>
+		<m:geq/>
+		<m:apply><m:minus/><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply><m:cn>5</m:cn></m:apply>
+		<m:cn>0</m:cn>
+	</m:apply>
+</m:math>, <m:math>
+	<m:apply>
+		<m:geq/>
+		<m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply>
+		<m:cn>5</m:cn>
+	</m:apply>
+</m:math>, <m:math> <m:apply>
+	<m:geq/>
+	<m:ci>x</m:ci>
+	<m:apply><m:divide/><m:cn>5</m:cn><m:cn>2</m:cn></m:apply>
+	</m:apply>
+</m:math></para>
+</solution></exercise><exercise id="element-657"><problem id="idp10152960">
+<para id="element-941"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/> <m:degree><m:cn>4</m:cn></m:degree>
+		<m:apply><m:minus/><m:cn>7</m:cn><m:ci>x</m:ci></m:apply>
+		</m:apply>
+	</m:apply>
+</m:math></para></problem>
+
+<solution id="idp8781552">
+<para id="element-783"><m:math>
+<m:apply>
+<m:set>
+	<m:bvar>
+	<m:ci>x</m:ci>
+	</m:bvar>
+	<m:condition>
+	<m:apply>
+	<m:leq/>
+	<m:ci>x</m:ci>
+	<m:cn>7</m:cn>
+	</m:apply>
+	</m:condition>
+</m:set>
+</m:apply>
+</m:math> since <m:math>
+	<m:apply>
+		<m:geq/>
+		<m:apply><m:minus/><m:cn>7</m:cn><m:ci>x</m:ci></m:apply>
+		<m:cn>0</m:cn>
+	</m:apply>
+</m:math>, <m:math>
+	<m:apply>
+		<m:geq/>
+		<m:apply><m:minus/><m:ci>x</m:ci></m:apply>
+		<m:apply><m:minus/><m:cn>7</m:cn></m:apply>
+	</m:apply>
+</m:math>, <m:math>
+	<m:apply>
+		<m:leq/>
+		<m:ci>x</m:ci>
+		<m:cn>7</m:cn>
+	</m:apply>
+</m:math></para>
+</solution></exercise><para id="element-869">The rest of the answers will be expressed in interval notation since that is a simpler way to express answers.</para><exercise id="element-679"><problem id="idp6895232">
+<para id="element-408"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/> <m:degree><m:cn>4</m:cn></m:degree>
+		<m:apply><m:minus/><m:apply><m:times/><m:cn>4</m:cn><m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:cn>16</m:cn></m:apply>
+		</m:apply>
+	</m:apply>
+</m:math></para></problem>
+
+<solution id="idm698736">
+<para id="element-302"><m:math>
+<m:apply>
+<m:union/>
+<m:interval closure="open-closed"><m:apply><m:minus/><m:infinity/></m:apply><m:apply><m:minus/><m:cn>2</m:cn></m:apply> </m:interval> 
+<m:interval closure="closed-open"><m:cn>2</m:cn><m:infinity/> </m:interval> 
+</m:apply>
+</m:math> 
+ since <m:math>
+	<m:apply>
+		<m:geq/>
+		<m:apply><m:minus/><m:apply><m:times/><m:cn>4</m:cn><m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:cn>16</m:cn></m:apply>
+		<m:cn>0</m:cn>
+	</m:apply>
+</m:math>,
+<m:math>
+<m:apply>
+<m:geq/>
+<m:apply><m:times/>
+<m:cn>4</m:cn>
+<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+</m:apply>
+<m:cn>16</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply>
+<m:geq/>
+<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+<m:cn>4</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply>
+<m:or/>
+<m:apply>
+<m:leq/>
+<m:ci>x</m:ci>
+<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+</m:apply>
+<m:apply>
+<m:geq/>
+<m:ci>x</m:ci>
+<m:cn>2</m:cn>
+</m:apply>
+</m:apply>
+</m:math></para>
+</solution></exercise><exercise id="element-116"><problem id="idp9554848">
+<para id="element-671"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:root/>
+		<m:apply> <m:minus/>
+		<m:cn>16</m:cn>
+			<m:apply> <m:times/>
+			<m:cn>25</m:cn>
+				<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math></para></problem>
+
+<solution id="idp252112">
+<para id="element-827"><m:math>
+<m:interval> 
+<m:apply><m:divide/><m:apply><m:minus/><m:cn>4</m:cn></m:apply><m:cn>5</m:cn></m:apply>
+<m:apply><m:divide/><m:cn>4</m:cn><m:cn>5</m:cn></m:apply>
+</m:interval>
+</m:math>
+since
+<m:math>
+<m:apply>
+<m:geq/>
+<m:apply><m:minus/>
+<m:cn>16</m:cn>
+<m:apply><m:times/>
+<m:cn>25</m:cn>
+<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+</m:apply>
+</m:apply>
+<m:cn>0</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply>
+<m:geq/>
+<m:apply><m:times/>
+<m:cn>-25</m:cn>
+<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+</m:apply>
+<m:cn>-16</m:cn>
+</m:apply>
+</m:math>,
+
+<m:math>
+<m:apply>
+<m:leq/>
+<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+<m:apply><m:divide/><m:cn>16</m:cn><m:cn>25</m:cn></m:apply>
+</m:apply>
+</m:math>,
+
+<m:math>
+<m:apply><m:and/>
+	<m:apply><m:geq/>
+		<m:ci>x</m:ci>
+		<m:apply><m:divide/>
+			<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+			<m:cn>5</m:cn>
+		</m:apply>
+	</m:apply>
+	<m:apply><m:leq/>
+		<m:ci>x</m:ci>
+		<m:apply><m:divide/>
+			<m:cn>4</m:cn>
+			<m:cn>5</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math></para>
+</solution></exercise><exercise id="element-595"><problem id="idp6269312">
+<para id="element-201"><m:math>
+	<m:apply>
+	<m:eq/>
+	<m:ci>y</m:ci>
+		<m:apply> <m:root/>
+			<m:apply>
+				<m:times/>
+				<m:apply>
+					<m:minus/>
+					<m:ci>x</m:ci>
+					<m:cn>7</m:cn>
+				</m:apply>
+				<m:apply>
+					<m:plus/>
+					<m:ci>x</m:ci>
+					<m:cn>1</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:math>
+</para></problem>
+
+<solution id="idp230480">
+<para id="element-587"><m:math>
+<m:apply>
+<m:union/>
+<m:interval closure="open-closed"><m:apply><m:minus/><m:infinity/></m:apply><m:apply><m:minus/><m:cn>1</m:cn></m:apply> </m:interval> 
+<m:interval closure="closed-open"><m:cn>7</m:cn><m:infinity/> </m:interval> 
+</m:apply>
+</m:math>,
+<m:math>
+	<m:apply> <m:geq/>
+		<m:apply> <m:root/>
+					<m:apply>
+						<m:times/>
+						<m:apply>
+							<m:minus/>
+							<m:ci>x</m:ci>
+							<m:cn>7</m:cn>
+						</m:apply>
+						<m:apply>
+							<m:plus/>
+							<m:ci>x</m:ci>
+							<m:cn>1</m:cn>
+						</m:apply>
+					</m:apply>
+		</m:apply>
+		<m:cn>0</m:cn>
+	</m:apply>
+</m:math></para>
+</solution></exercise><exercise id="element-152"><problem id="idp166144">
+<para id="element-388"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+			<m:apply>
+			<m:root/>
+   <m:apply>
+     <m:plus/>
+     <m:apply>
+       <m:minus/>
+       <m:apply>
+         <m:times/>
+         <m:cn>2</m:cn>
+         <m:apply>
+       <m:power/>
+       <m:ci>x</m:ci>
+       <m:cn>2</m:cn>
+         </m:apply>
+       </m:apply>
+       <m:apply>
+         <m:times/>
+         <m:cn>7</m:cn>
+         <m:ci>x</m:ci>
+       </m:apply>
+     </m:apply>
+     <m:cn>3</m:cn>
+   </m:apply>
+    
+
+			</m:apply>
+	</m:apply>
+</m:math></para></problem>
+
+<solution id="idp10047424">
+<para id="element-836"><m:math>
+<m:apply>
+<m:union/>
+<m:interval closure="open-closed"><m:apply><m:minus/><m:infinity/></m:apply><m:cn type="rational">1<m:sep/>2</m:cn> </m:interval> 
+<m:interval closure="closed-open"><m:cn>3</m:cn><m:infinity/> </m:interval> 
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply> <m:geq/>
+   <m:apply>
+     <m:plus/>
+     <m:apply>
+       <m:minus/>
+       <m:apply>
+         <m:times/>
+         <m:cn>2</m:cn>
+         <m:apply>
+       <m:power/>
+       <m:ci>x</m:ci>
+       <m:cn>2</m:cn>
+         </m:apply>
+       </m:apply>
+       <m:apply>
+         <m:times/>
+         <m:cn>7</m:cn>
+         <m:ci>x</m:ci>
+       </m:apply>
+     </m:apply>
+     <m:cn>3</m:cn>
+   </m:apply>
+<m:cn>0</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:times/>
+		<m:apply><m:minus/>
+			<m:apply><m:times/>
+				<m:cn>2</m:cn>
+				<m:ci>x</m:ci>
+			</m:apply>
+			<m:cn>1</m:cn>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:ci>x</m:ci>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+	<m:cn>0</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:or/>
+	<m:apply><m:leq/>
+		<m:ci>x</m:ci>
+		<m:apply><m:divide/>
+			<m:cn>1</m:cn>
+			<m:cn>2</m:cn>
+		</m:apply>
+	</m:apply>
+	<m:apply><m:geq/>
+		<m:ci>x</m:ci>
+		<m:cn>3</m:cn>
+	</m:apply>
+</m:apply>
+</m:math></para>
+</solution></exercise><exercise id="element-535"><problem id="idm348544">
+<para id="element-932"><m:math>
+	<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+		<m:apply>
+		<m:ci>x</m:ci>
+			<m:apply><m:root/>
+				<m:apply><m:plus/>
+					<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+					</m:apply>
+				<m:cn>4</m:cn>
+				</m:apply>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:math></para></problem>
+
+<solution id="idp9075072">
+<para id="element-854"><m:math>
+<m:interval closure="open">
+<m:apply><m:minus/><m:infinity/></m:apply><m:infinity/>
+</m:interval>
+</m:math>,
+since
+
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:plus/>
+		<m:apply><m:power/>
+			<m:ci>x</m:ci>
+			<m:cn>2</m:cn>
+		</m:apply>
+		<m:cn>4</m:cn>
+	</m:apply>
+	<m:cn>0</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:power/>
+		<m:ci>x</m:ci>
+		<m:cn>2</m:cn>
+	</m:apply>
+	<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+</m:apply>
+</m:math>
+This will always be true, for all real numbers, any number squared is always positive</para>
+</solution></exercise><exercise id="element-944"><problem id="idp7929184">
+		<para id="element-812"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+<m:plus/>
+<m:ci>x</m:ci>
+<m:apply>
+		<m:root/>
+		<m:apply><m:plus/><m:apply><m:minus/><m:ci>x</m:ci></m:apply><m:cn>8</m:cn></m:apply>
+		</m:apply>
+	</m:apply> </m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp251184">
+		<para id="element-448"><m:math>
+<m:interval closure="open-closed"><m:apply><m:minus/><m:infinity/></m:apply><m:cn>8</m:cn> </m:interval> 
+</m:math> 
+since	
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:plus/>
+		<m:apply><m:minus/><m:ci>x</m:ci></m:apply>
+		<m:cn>8</m:cn>
+	</m:apply>
+	<m:cn>0</m:cn>
+</m:apply>
+</m:math>,
+
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:minus/><m:ci>x</m:ci></m:apply>
+	<m:apply><m:minus/><m:cn>8</m:cn></m:apply>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:leq/>
+	<m:ci>x</m:ci>
+	<m:cn>8</m:cn>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-8"><problem id="idp10581920">
+		<para id="element-413"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/>
+		<m:apply><m:plus/><m:apply><m:times/><m:cn>6</m:cn><m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply></m:apply><m:cn>8</m:cn></m:apply>
+		</m:apply>
+	</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp751984">
+		<para id="element-269"><m:math>
+<m:interval closure="open">
+<m:apply><m:minus/><m:infinity/></m:apply><m:infinity/>
+</m:interval>
+</m:math>,
+since
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:plus/>
+		<m:apply><m:times/>
+		<m:cn>6</m:cn>
+			<m:apply><m:power/>
+			<m:ci>x</m:ci>
+			<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+	<m:cn>8</m:cn>
+	</m:apply>
+<m:cn>0</m:cn>
+</m:apply>
+</m:math>, <m:math>
+<m:apply><m:geq/>
+		<m:apply><m:times/>
+		<m:cn>6</m:cn>
+			<m:apply><m:power/>
+			<m:ci>x</m:ci>
+			<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+<m:apply><m:minus/><m:cn>8</m:cn></m:apply>
+</m:apply>
+</m:math>, <m:math>
+<m:apply><m:geq/>
+			<m:apply><m:power/>
+			<m:ci>x</m:ci>
+			<m:cn>2</m:cn>
+			</m:apply>
+<m:apply><m:divide/><m:cn>-8</m:cn><m:cn>6</m:cn></m:apply>
+</m:apply>
+</m:math> 
+
+This will always be true, for all real numbers, any number squared is always positive</para>
+	</solution>
+</exercise><exercise id="element-641"><problem id="idp7350064">
+		<para id="element-33"><m:math>
+	<m:apply>
+		<m:eq/>
+		<m:ci>y</m:ci>
+		<m:apply>
+		<m:root/>
+		<m:apply><m:minus/><m:apply><m:minus/><m:cn>8</m:cn></m:apply><m:apply><m:times/><m:cn>6</m:cn><m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply></m:apply></m:apply>
+		</m:apply>
+	</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp8690768">
+		<para id="element-666">No solution since
+
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:minus/>
+		<m:apply><m:minus/><m:cn>8</m:cn></m:apply>
+		<m:apply><m:times/>
+			<m:cn>6</m:cn>
+			<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+		</m:apply>
+	</m:apply>
+	<m:cn>0</m:cn>
+</m:apply>
+</m:math>, 
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:times/>
+		<m:cn>-6</m:cn>
+		<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+	</m:apply>
+	<m:cn>8</m:cn>
+</m:apply>
+</m:math>,
+<m:math>
+<m:apply><m:geq/>
+	<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+	<m:apply><m:divide/><m:cn>-8</m:cn><m:cn>6</m:cn></m:apply>
+</m:apply>
+</m:math>
+This will never be true, so there is no solution, since any number squared is always positive, so it will never be less than 0. </para>
+	</solution>
+</exercise> 
+  </content>
+  
+</document>

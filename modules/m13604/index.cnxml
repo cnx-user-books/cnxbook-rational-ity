@@ -1,0 +1,578 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Putting It All Together - Graphing Rational Functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>afaa4ae0-7d9e-4619-925f-86088124c633</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">When graphing rational functions, find the domain, vertical asymptotes, slant asymptotes, holes (if any), horizontal asymptotes, vertical asymptotes, zeros, and y-intercept. </para><para id="element-833">To practice, graph each rational function. State the domain, hole(s), VA (vertical asyptote(s)), HA(horizontal asymptote), SA(slant asymptote), zeros, and y-intercept(y-int). </para><para id="element-668">Use <link url="http://www.incompetech.com/beta/plainGraphPaper/graph.pdf">graph paper</link>.</para><exercise id="element-889"><problem id="idp9174032">
+		<para id="element-574">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>r</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>1</m:cn>
+		</m:apply>
+		<m:apply><m:times/>
+			<m:ci>x</m:ci>
+			<m:apply><m:plus/>
+				<m:ci>x</m:ci>
+				<m:cn>4</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp6580688">
+		<figure id="element-121"><media id="idp6183264" alt=""><image src="../../media/Pit1.png" mime-type="image/png"/></media></figure>
+<para id="element-999">Domain:
+ <m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-4</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-4</m:cn>
+		<m:cn>0</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>0</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-1">
+Hole: None
+</para>
+<para id="element-998">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>0</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-4</m:cn></m:apply></m:math></para>
+<para id="element-997">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>0</m:cn></m:apply></m:math></para>
+<para id="element-996">SA:None</para>
+<para id="element-995">
+Zero: (-1,0)
+</para>
+<para id="element-994">
+Y-int: None
+</para>
+	</solution>
+</exercise><exercise id="element-424"><problem id="idp187840">
+		<para id="element-711">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>h</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:apply><m:times/>
+				<m:cn>2</m:cn>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+			</m:apply>
+			<m:apply><m:minus/>
+				<m:ci>x</m:ci>
+				<m:cn>3</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:apply><m:times/>
+			<m:apply><m:minus/>
+				<m:ci>x</m:ci>
+				<m:cn>1</m:cn>
+			</m:apply>
+			<m:apply><m:plus/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp8934592">
+		<para id="element-102"><figure id="element-74"><media id="idp12948368" alt=""><image src="../../media/Pit2.png" mime-type="image/png"/></media></figure></para>
+<para id="element-993">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-2</m:cn>
+		<m:cn>1</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>1</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-11">
+Hole: None
+</para>
+<para id="element-992">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>1</m:cn></m:apply></m:math></para>
+<para id="element-991">HA:None</para>
+<para id="element-990">SA: <m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>8</m:cn>
+	</m:apply>
+</m:apply>
+</m:math></para>
+<para id="element-989">Zeros: (0,0), (3,0)
+</para>
+<para id="element-988">Y-int: (0,0)</para>
+	</solution>
+</exercise><exercise id="element-596"><problem id="idp9410016">
+		<para id="element-252">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>f</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:times/>
+				<m:cn>3</m:cn>
+				<m:ci>x</m:ci>
+			</m:apply>
+			<m:cn>3</m:cn>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:apply><m:times/>
+				<m:cn>2</m:cn>
+				<m:ci>x</m:ci>
+			</m:apply>
+				<m:cn>4</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp6817760">
+		<figure id="element-30"><media id="idp6520800" alt=""><image src="../../media/Pit3.png" mime-type="image/png"/></media></figure>
+<para id="element-970">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-2</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-969">
+Hole: None
+</para>
+<para id="element-968">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math></para>
+<para id="element-967">HA:
+ <m:math><m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:cn>3</m:cn><m:cn>2</m:cn></m:apply></m:apply></m:math></para>
+<para id="element-966">SA: None</para>
+<para id="element-965">Zero: (-1,0)</para>
+<para id="element-964">Y-int: (0,<m:math><m:apply><m:divide/><m:cn>3</m:cn><m:cn>4</m:cn></m:apply></m:math>)</para>
+	</solution>
+</exercise><exercise id="element-543"><problem id="idp6605568">
+		<para id="element-214"><m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>g</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:cn>6</m:cn>
+		<m:apply><m:minus/>
+			<m:apply><m:minus/><m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:ci>x</m:ci></m:apply>
+			<m:cn>6</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm1213664">
+		<figure id="element-554"><media id="idp10647920" alt=""><image src="../../media/Pit4.png" mime-type="image/png"/></media></figure>
+<para id="element-960">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-2</m:cn>
+		<m:cn>3</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>3</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-959">
+Hole: None
+</para>
+<para id="element-958">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply></m:math></para>
+<para id="element-957">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>0</m:cn></m:apply></m:math></para>
+<para id="element-956">SA: None</para>
+<para id="element-955">Zeros: None</para>
+<para id="element-954">Y-int: (0,-1)</para>
+	</solution>
+</exercise><exercise id="element-40"><problem id="idp9299920">
+		<para id="element-591">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>h</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:times/>
+				<m:cn>2</m:cn>
+				<m:ci>x</m:ci>
+			</m:apply>
+			<m:cn>4</m:cn>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:ci>x</m:ci>
+			<m:cn>1</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm377472">
+		<figure id="element-819"><media id="idp8629792" alt=""><image src="../../media/Pit5.png" mime-type="image/png"/></media></figure>
+<para id="element-950">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>1</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>1</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-949">
+Hole: None
+</para>
+<para id="element-948">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>1</m:cn></m:apply></m:math></para>
+<para id="element-947">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>2</m:cn></m:apply></m:math></para>
+<para id="element-946">SA: None</para>
+<para id="element-945">Zero: (-2,0)</para>
+<para id="element-944">Y-int: (-2,0)</para>
+	</solution>
+</exercise><exercise id="element-724"><problem id="idm623392">
+		<para id="element-152">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>t</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>3</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:cn>4</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm761488">
+		<figure id="element-842"><media id="idp7661776" alt=""><image src="../../media/Pit6.png" mime-type="image/png"/></media></figure>
+<para id="element-940">Domain:
+<m:math>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:math></para>
+<para id="element-939">
+Hole: None
+</para>
+<para id="element-938">VA: 
+None</para>
+<para id="element-937">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>0</m:cn></m:apply></m:math></para>
+<para id="element-936">SA: None</para>
+<para id="element-935">Zero: (0,0)</para>
+<para id="element-934">Y-int: (0,0)</para>
+	</solution>
+</exercise><exercise id="element-180"><problem id="idp6658688">
+		<para id="element-504">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>f</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:cn>4</m:cn>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+				<m:cn>4</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+
+		</para>
+	</problem>
+
+	<solution id="idm1236224">
+		<figure id="element-547"><media id="idp5481232" alt=""><image src="../../media/Pit7.png" mime-type="image/png"/></media></figure>
+<para id="element-930">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-2</m:cn>
+		<m:cn>2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>2</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-929">
+Hole: None
+</para>
+<para id="element-928">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math>,
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply></m:math></para>
+<para id="element-927">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>1</m:cn></m:apply></m:math></para>
+<para id="element-926">SA: None</para>
+<para id="element-925">Zeros: None
+</para>
+<para id="element-924">Y-int: (0,-1)</para>
+	</solution>
+</exercise><exercise id="element-364"><problem id="idm1217360">
+		<para id="element-354">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>f</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:ci>x</m:ci>		
+		<m:apply><m:power/>
+			<m:apply><m:plus/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+				<m:cn>2</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm455152">
+		<figure id="element-101"><media id="idp6402416" alt=""><image src="../../media/Pit8.png" mime-type="image/png"/></media></figure>
+<para id="element-919">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-2</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-2</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-918">
+Hole: None
+</para>
+<para id="element-917">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-2</m:cn></m:apply></m:math></para>
+<para id="element-916">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>0</m:cn></m:apply></m:math></para>
+<para id="element-915">SA: None</para>
+<para id="element-914">Zeros: (0,0)</para>
+<para id="element-913">Y-int: (0,0)</para>
+	</solution>
+</exercise><exercise id="element-229"><problem id="idp8830080">
+		<para id="element-359">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>f</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>5</m:cn>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm886016">
+		<figure id="element-480"><media id="idp9057952" alt=""><image src="../../media/Pit9.png" mime-type="image/png"/></media></figure>
+<para id="element-901">Domain:
+<m:math>
+<m:apply><m:union/>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>-3</m:cn>
+	</m:interval>
+	<m:interval closure="open">
+		<m:cn>-3</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math></para>
+<para id="element-902">
+Hole: None
+</para>
+<para id="element-903">VA: 
+<m:math><m:apply><m:eq/><m:ci>x</m:ci><m:cn>-3</m:cn></m:apply></m:math></para>
+<para id="element-904">HA:
+None</para>
+<para id="element-905">SA: <m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:apply><m:times/>
+			<m:cn>5</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>15</m:cn>
+	</m:apply>
+</m:apply>
+</m:math></para>
+<para id="element-906">Zeros: (0,0)</para>
+<para id="element-907">Y-int: (0,0)</para>
+	</solution>
+</exercise><exercise id="element-861"><problem id="idp7502096">
+		<para id="element-227">
+			<m:math>
+<m:apply><m:eq/>
+	<m:apply>
+		<m:fn><m:ci>f</m:ci></m:fn>
+		<m:ci>x</m:ci>
+	</m:apply>
+	<m:apply><m:divide/>
+		<m:apply><m:minus/>
+			<m:ci>x</m:ci>
+			<m:cn>3</m:cn>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:cn>1</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp9141568">
+		<figure id="element-576"><media id="idp6625184" alt=""><image src="../../media/Pit10.png" mime-type="image/png"/></media></figure>
+<para id="element-850">Domain:
+<m:math>
+	<m:interval closure="open">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:math></para>
+<para id="element-851">
+Hole: None
+</para>
+<para id="element-852">VA: 
+None</para>
+<para id="element-853">HA:
+<m:math><m:apply><m:eq/><m:ci>y</m:ci><m:cn>0</m:cn></m:apply></m:math></para>
+<para id="element-854">SA:None</para>
+<para id="element-855">Zeros:(3,0)
+</para>
+<para id="element-856">Y-int: (0,-3)</para>
+	</solution>
+</exercise>   
+  </content>
+  
+</document>

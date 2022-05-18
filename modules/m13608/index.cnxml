@@ -1,0 +1,416 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Slant Asymptotes</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e41be290-8c4f-4075-86d8-fd754b56d41f</md:uuid>
+</metadata>
+  <content>
+    <para id="element-123">Just like vertical and horizontal asymptotes, <term>slant asymptotes</term> are lines the graph approaches. They are also called <term>oblique asymptotes</term>. </para><para id="delete_me">A graph has a slant asymptote if the degree of the numerator is bigger than the degree of the denominator (there is no horizontal asymptote).     </para><para id="element-849">To find slant asymptotes, divide the numerator by the denominator and keep only the quotient (the   answer, throw away the remainder). Don't forget that these are still lines, so they are written as y = </para><para id="element-51">To divide, you either have to use long division or synthetic division (if possible). </para><para id="element-763">PRACTICE - Find the Slant Asymptotes:</para><exercise id="element-687"><problem id="idp1442544">
+		<para id="element-304">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>3</m:cn>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>3</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:cn>1</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp79200">
+		<para id="element-322"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:times/>
+		<m:cn>3</m:cn>
+		<m:ci>x</m:ci>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-682"><problem id="idp520272">
+		<para id="element-280">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>1</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm696128">
+		<para id="element-264"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>2</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-824"><problem id="idp7716928">
+		<para id="element-720">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:minus/>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+				<m:apply><m:times/>
+					<m:cn>9</m:cn>
+					<m:ci>x</m:ci>
+				</m:apply>
+			</m:apply>
+			<m:cn>2</m:cn>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>4</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm7754896">
+		<para id="element-909"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:ci>x</m:ci>
+		<m:cn>13</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-667"><problem id="idm7250528">
+		<para id="element-375">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:minus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>3</m:cn>
+			</m:apply>
+			<m:cn>27</m:cn>	
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp4749728">
+		<para id="element-932"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:ci>x</m:ci>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-394"><problem id="idm486496">
+		<para id="element-656">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:minus/>
+			<m:apply><m:plus/>
+				<m:apply><m:times/>
+					<m:cn>2</m:cn>
+					<m:apply><m:power/>
+						<m:ci>x</m:ci>
+						<m:cn>3</m:cn>
+					</m:apply>
+				</m:apply>
+				<m:apply><m:times/>
+					<m:cn>7</m:cn>
+					<m:apply><m:power/>
+						<m:ci>x</m:ci>
+						<m:cn>2</m:cn>
+					</m:apply>
+				</m:apply>
+			</m:apply>
+			<m:cn>4</m:cn>
+		</m:apply>
+		<m:apply><m:times/>
+			<m:apply><m:plus/>
+				<m:ci>x</m:ci>
+				<m:cn>3</m:cn>
+			</m:apply>
+			<m:apply><m:minus/>
+				<m:ci>x</m:ci>
+				<m:cn>1</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply></m:math>
+		</para>
+	</problem>
+
+	<solution id="idm534736">
+		<para id="element-328"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:plus/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>3</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-269"><problem id="idm530352">
+		<para id="element-554">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+			<m:apply><m:times/>
+				<m:cn>5</m:cn>
+				<m:ci>x</m:ci>	
+			</m:apply>
+			<m:cn>8</m:cn>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm1282240">
+		<para id="element-368"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:plus/>
+		<m:ci>x</m:ci>
+		<m:cn>2</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-457"><problem id="idp1352912">
+		<para id="element-749">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:times/>
+				<m:cn>2</m:cn>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+			</m:apply>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>1</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm873968">
+		<para id="element-769"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>1</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-259"><problem id="idp1405392">
+		<para id="element-900">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+			<m:apply><m:times/>
+				<m:apply><m:times/>
+					<m:cn>2</m:cn>
+					<m:ci>x</m:ci>
+				</m:apply>
+				<m:apply><m:plus/>
+					<m:ci>x</m:ci>
+					<m:cn>11</m:cn>
+				</m:apply>
+			</m:apply>
+		<m:apply><m:minus/>
+			<m:ci>x</m:ci>
+			<m:cn>4</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm852336">
+		<para id="element-971"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:plus/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:cn>30</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-445"><problem id="idm467472">
+		<para id="element-784">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:power/>
+			<m:ci>x</m:ci>
+			<m:cn>4</m:cn>
+		</m:apply>
+		<m:apply><m:power/>
+			<m:apply><m:minus/>
+				<m:ci>x</m:ci>
+				<m:cn>1</m:cn>
+			</m:apply>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp2943056">
+		<para id="element-48"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:plus/>
+		<m:ci>x</m:ci>
+		<m:cn>3</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-255"><problem id="idm175264">
+		<para id="element-962">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:plus/>
+			<m:apply><m:minus/>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>3</m:cn>
+				</m:apply>
+				<m:ci>x</m:ci>
+			</m:apply>
+			<m:cn>3</m:cn>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:apply><m:plus/>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+				<m:ci>x</m:ci>
+			</m:apply>
+			<m:cn>2</m:cn>
+		</m:apply>	
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm8348000">
+		<para id="element-872"><m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:minus/>
+		<m:ci>x</m:ci>
+		<m:cn>1</m:cn>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise>   
+  </content>
+  
+</document>

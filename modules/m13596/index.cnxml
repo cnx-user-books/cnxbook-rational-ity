@@ -1,0 +1,451 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Using Interval Notation</title>
+<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d6437272-5b59-46a0-95aa-aa13801f60b2</md:uuid>
+</metadata>
+<content>
+
+<para id="id48768002">Interval notation is another method for
+writing domain and range.</para>
+<para id="id34474352">In set builder notation braces (curly parentheses {} ) and variables are used to express the domain and range. Interval notation is often considered more efficient.</para>
+<para id="id34240787">In interval notation, there are only 5 symbols to know:</para><list list-type="bulleted" id="element-691"><item>Open parentheses ( )</item>
+	<item>Closed parentheses [ ]</item>
+	<item>Infinity <m:math><m:apply>
+				<m:infinity/></m:apply></m:math>
+	</item>
+	<item>Negative Infinity <m:math><m:apply><m:minus/><m:infinity/></m:apply></m:math>
+	</item>
+<item>Union Sign
+<m:math><m:apply><m:union/></m:apply></m:math>
+</item>
+</list><para id="element-617">To use interval notation:</para><para id="element-82">Use the open parentheses ( ) if the value is not included in the graph. (i.e. the graph is undefined at that point... there's a hole or asymptote, or a jump)</para><para id="element-972">If the graph goes on forever to the left, the domain will start with ( <m:math><m:apply><m:minus/><m:infinity/></m:apply></m:math>. If the graph travels downward forever, the range will start with ( <m:math><m:apply><m:minus/><m:infinity/></m:apply></m:math>. 
+Similarly, if the graph goes on forever at the right or up, end with <m:math><m:apply><m:infinity/></m:apply></m:math>)</para><para id="element-776"> Use the brackets [ ] if the value is part of the graph. </para><para id="element-810">Whenever there is a break in the graph, write the interval up to the point. Then write another interval for the section of the graph after that part. Put a union sign between each interval to "join" them together.</para><para id="element-197"> Now for some practice so you can see if any of this makes sense. </para><para id="element-625">Write the following using interval notation:</para><exercise id="element-688"><problem id="idm174832">
+<figure id="element-31"><media id="idp1471264" alt=""><image src="../../media/1_1.png" mime-type="image/png"/></media></figure></problem>
+
+<solution id="idm7655072">
+<para id="element-509"><m:math>
+	<m:interval closure="closed-open">
+	<m:cn>0</m:cn>
+	<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:math></para>
+</solution></exercise><exercise id="element-916"><problem id="idm6920320">
+		<figure id="element-358"><media id="idm5967584" alt=""><image src="../../media/1_2.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idp2105728">
+		<para id="element-440"><m:math>
+	<m:apply><m:union/>
+		<m:interval closure="open-closed">
+			<m:apply><m:minus/><m:infinity/></m:apply>
+			<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+		</m:interval>
+		<m:interval closure="open">
+			<m:cn>1</m:cn>
+			<m:apply><m:infinity/></m:apply>	
+		</m:interval>
+	</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-606"><problem id="idm6964208">
+		<figure id="element-246"><media id="idp1783872" alt=""><image src="../../media/1_3.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idp3576192">
+		<para id="element-386"><m:math>
+<m:interval closure="open-closed">
+<m:apply><m:minus/><m:cn>5</m:cn></m:apply>
+<m:cn>2</m:cn>
+</m:interval>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-126"><problem id="idp1427856">
+		<figure id="element-485"><media id="idm7719312" alt=""><image src="../../media/1_4.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idp474400">
+		<para id="element-742"><m:math>
+	<m:apply><m:union/>
+		<m:interval closure="open-closed">
+			<m:apply><m:minus/><m:infinity/></m:apply>
+			<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+		</m:interval>
+		<m:interval closure="open">
+			<m:cn>0</m:cn>
+			<m:cn>2</m:cn>	
+		</m:interval>
+		<m:interval closure="open">
+			<m:cn>4</m:cn>
+			<m:apply><m:infinity/></m:apply>	
+		</m:interval>
+	</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-664"><problem id="idp1040736">
+		<figure id="element-478"><media id="idp4080352" alt=""><image src="../../media/1_5.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idm7073088">
+		<para id="element-203"><m:math>
+<m:apply><m:union/>
+	<m:list><m:apply><m:minus/><m:cn>1</m:cn></m:apply></m:list>
+	<m:interval closure="closed-open">
+		<m:cn>3</m:cn>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math>
+		</para>
+	</solution>
+</exercise><exercise id="element-416"><problem id="idp2441584">
+		<figure id="element-854"><media id="idp6251072" alt=""><image src="../../media/1_6.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idm13296">
+		<para id="element-101"><m:math>
+	<m:interval closure="open-closed">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>3</m:cn>
+	</m:interval>
+</m:math></para>
+	</solution>
+</exercise><para id="element-263">Write the domain and range of the following in interval notation:</para><exercise id="element-332"><problem id="idm7553792">
+		<figure id="element-446"><media id="idm7568096" alt=""><image src="../../media/1_7.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idp357824">
+		<para id="element-847">Domain: <m:math>
+<m:apply><m:union/>
+	<m:list>
+		<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+	</m:list>
+	<m:list>
+		<m:cn>0</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>2</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>3</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+<para id="element-995">Range: <m:math>
+<m:apply><m:union/>
+	<m:list>
+		<m:apply><m:minus/><m:cn>1</m:cn></m:apply>
+	</m:list>
+	<m:list>
+		<m:cn>1</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>2</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>3</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-793"><problem id="idm7834880">
+		<figure id="element-345"><media id="idp2772320" alt=""><image src="../../media/1_8.png" mime-type="image/png"/></media></figure>
+	</problem>
+
+	<solution id="idp399008">
+		<para id="element-624">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math></para>
+<para id="element-703">Range: <m:math>
+<m:apply><m:union/>
+	<m:interval closure="open-closed">
+		<m:apply><m:infinity/></m:apply>
+		<m:cn>1</m:cn>
+	</m:interval>
+	<m:list>
+	<m:cn>4</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-812"><problem id="idm53200">
+		<figure id="element-252"><media id="idm7888256" alt=""><image src="../../media/1_9.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idm6783008">
+		<para id="element-248">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-44">Range: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-517"><problem id="idp211616">
+		<figure id="element-127">
+			<media id="idp6589024" alt=""><image src="../../media/1_10.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idm7197040">
+		<para id="element-299">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math></para>
+<para id="element-455">Range: <m:math>
+<m:apply><m:union/>
+	<m:list>
+	<m:cn>1</m:cn>
+	</m:list>
+	<m:list>
+	<m:cn>3</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-106"><problem id="idp6678128">
+		<figure id="element-107">
+			<media id="idm6109040" alt=""><image src="../../media/1_11.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp1299232">
+		<para id="element-78">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-270">Range: <m:math>
+<m:interval closure="closed">
+	<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+	<m:cn>3</m:cn>
+</m:interval>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-570"><problem id="idp714384">
+		<figure id="element-883">
+			<media id="idp2959728" alt=""><image src="../../media/1_12.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp2147472">
+		<para id="element-706">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math></para>
+<para id="element-114">Range: <m:math>
+<m:apply><m:union/>
+	<m:list>
+	<m:cn>1</m:cn>
+	</m:list>
+	<m:list>
+	<m:cn>3</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-348"><problem id="idp2196384">
+		<figure id="element-716">
+			<media id="idp4125728" alt=""><image src="../../media/1_13.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp5737888">
+		<para id="element-905">Domain: <m:math>
+<m:interval closure="closed">
+	<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+	<m:cn>0</m:cn>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-259">Range: <m:math>
+<m:interval closure="closed">
+	<m:cn>0</m:cn>
+	<m:cn>4</m:cn>
+</m:interval>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-442"><problem id="idp6597712">
+		<figure id="element-620">
+			<media id="idp6902864" alt=""><image src="../../media/1_14.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp3244464">
+		<para id="element-323">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-699">Range: <m:math><m:interval closure="open-closed">
+		<m:apply><m:minus/><m:infinity/></m:apply>
+		<m:cn>4</m:cn>
+	</m:interval></m:math></para>
+	</solution>
+</exercise><exercise id="element-613"><problem id="idp6014576">
+		<figure id="element-38">
+			<media id="idp6556896" alt=""><image src="../../media/1_15.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp3221760">
+		<para id="element-461">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-928">Range: <m:math> <m:interval closure="closed-open">
+			<m:cn>0</m:cn>
+			<m:apply><m:infinity/></m:apply>
+			
+	</m:interval> </m:math></para>
+	</solution>
+</exercise><exercise id="element-359"><problem id="idm7599536">
+		<figure id="element-900">
+			<media id="idp561760" alt=""><image src="../../media/1_16.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp6676736">
+		<para id="element-30">Domain: <m:math> <m:interval closure="closed-open">
+			<m:cn>0</m:cn>
+			<m:apply><m:infinity/></m:apply>
+			
+	</m:interval> </m:math>
+		</para>
+<para id="element-586">Range: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-245"><problem id="idp2295760">
+		<figure id="element-4">
+			<media id="idp2703088" alt=""><image src="../../media/1_17.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idm7119664">
+		<para id="element-357">Domain: <m:math>
+<m:apply><m:union/>
+	<m:list>
+		<m:apply><m:minus/><m:cn>3</m:cn></m:apply>
+	</m:list>
+	<m:list>
+		<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+	</m:list>
+	<m:interval closure="closed-open">
+		<m:apply><m:minus/><m:cn>1</m:cn></m:apply>
+		<m:apply><m:infinity/></m:apply>
+	</m:interval>
+</m:apply>
+</m:math>
+		</para>
+<para id="element-257">Range: <m:math>
+<m:apply><m:union/>
+	<m:list>
+		<m:cn>0</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>1</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>2</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-244"><problem id="idm280608">
+		<figure id="element-300">
+			<media id="idp1941776" alt=""><image src="../../media/1_18.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp2999312">
+		<para id="element-895">Domain: <m:math>
+<m:interval closure="open">
+	<m:apply><m:minus/><m:infinity/></m:apply>
+	<m:apply><m:infinity/></m:apply>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-112">Range: <m:math>
+<m:list>
+<m:cn>4</m:cn>
+</m:list>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-198"><problem id="idm231824">
+		<figure id="element-477">
+			<media id="idm7629008" alt=""><image src="../../media/1_19.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idm6601216">
+		<para id="element-221">Domain: <m:math>
+<m:interval closure="closed-open">
+	<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+	<m:cn>4</m:cn>
+</m:interval>
+</m:math>
+		</para>
+<para id="element-945">Range: <m:math>
+<m:apply><m:union/>
+	<m:list>
+		<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+	</m:list>
+	<m:list>
+		<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+	</m:list>
+	<m:list>
+		<m:cn>0</m:cn>
+	</m:list>
+	<m:list>
+		<m:cn>2</m:cn>
+	</m:list>
+</m:apply>
+</m:math></para>
+	</solution>
+</exercise><exercise id="element-145"><problem id="idm6978080">
+		<figure id="element-41">
+			<media id="idm7697728" alt=""><image src="../../media/1_20.png" mime-type="image/png"/></media>
+		</figure>
+	</problem>
+
+	<solution id="idp2987264">
+		<para id="element-428">Domain: <m:math>
+<m:interval closure="open-closed">
+		<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+		<m:cn>4</m:cn>
+	</m:interval>
+</m:math>
+		</para>
+<para id="element-774">Range: <m:math>
+<m:interval closure="closed">
+		<m:cn>0</m:cn>
+		<m:cn>4</m:cn>
+	</m:interval>
+</m:math></para>
+	</solution>
+</exercise>
+</content>
+</document>

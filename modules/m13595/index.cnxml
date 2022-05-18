@@ -1,0 +1,204 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Interesting Graphs!!!</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7d90d2b1-d74b-4315-b724-3a34711013cc</md:uuid>
+</metadata>
+  <content>
+    <para id="element-352">Although it is always useful to calculate all the good stuff - domain, vertical asymptotes, horizontal asymptotes, slant asymptotes, holes, x- and y-intercepts, there are some graphs that are just different. This lesson is to show you some unique, yet useful graphs. Try graphing them first on the paper provided and then check your answers. The best way to find the pattern that these graphs follow is to plug in points.</para><para id="element-196">Use <link url="http://www.incompetech.com/beta/plainGraphPaper/graph.pdf">graph paper</link>. 
+	</para><exercise id="element-189"><problem id="idm6592096">
+		<para id="element-676">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:abs/><m:ci>x</m:ci></m:apply>
+		<m:ci>x</m:ci>
+	</m:apply>
+</m:apply>
+	</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm7551168">
+		<figure id="element-121"><media id="idp6652640" alt=""><image src="../../media/Interesting1.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-619"><problem id="idm6011488">
+		<para id="element-773">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:abs/>
+			<m:apply><m:minus/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:apply><m:minus/>
+			<m:ci>x</m:ci>
+			<m:cn>2</m:cn>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp6282432">
+		<figure id="element-583"><media id="idp2795104" alt=""><image src="../../media/Interesting2.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-461"><problem id="idp6810464">
+		<para id="element-828"><m:math><m:apply><m:eq/>
+<m:ci>y</m:ci>
+
+<m:apply><m:divide/>
+	<m:apply><m:abs/>
+		<m:apply><m:plus/>
+			<m:ci>x</m:ci>
+			<m:cn>3</m:cn>
+		</m:apply>
+	</m:apply>
+	<m:apply><m:plus/>
+		<m:ci>x</m:ci>
+		<m:cn>3</m:cn>
+	</m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp6388976">
+		<figure id="element-657"><media id="idp3864784" alt=""><image src="../../media/Interesting3.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-172"><problem id="idp4339520">
+		<para id="element-374">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:abs/>
+			<m:apply><m:plus/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+		<m:ci>x</m:ci>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp4400112">
+		<figure id="element-622"><media id="idm7688064" alt=""><image src="../../media/Interesting4.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-936"><problem id="idp1523952">
+		<para id="element-938">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:ci>x</m:ci>
+		<m:apply><m:root/>
+			<m:apply><m:power/>
+				<m:ci>x</m:ci>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp6253072">
+		<figure id="element-76"><media id="idm6523520" alt=""><image src="../../media/Interesting5.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-566"><problem id="idp345968">
+		<para id="element-15">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:ci>x</m:ci>
+		<m:apply><m:root/>
+			<m:apply><m:plus/>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+				<m:cn>2</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idp1559680">
+		<figure id="element-106"><media id="idm6617712" alt=""><image src="../../media/Interesting6.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-981"><problem id="idp2160224">
+		<para id="element-120">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>-6</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:apply><m:root/>
+			<m:apply><m:plus/>
+				<m:apply><m:times/>
+					<m:cn>4</m:cn>
+					<m:apply><m:power/>
+						<m:ci>x</m:ci>
+						<m:cn>2</m:cn>
+					</m:apply>
+				</m:apply>
+				<m:cn>5</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm6620544">
+		<figure id="element-652"><media id="idp289968" alt=""><image src="../../media/Interesting7.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise><exercise id="element-562"><problem id="idp163520">
+		<para id="element-896">
+			<m:math>
+<m:apply><m:eq/>
+	<m:ci>y</m:ci>
+	<m:apply><m:divide/>
+		<m:apply><m:times/>
+			<m:cn>2</m:cn>
+			<m:ci>x</m:ci>
+		</m:apply>
+		<m:apply><m:root/>
+			<m:apply><m:plus/>
+				<m:apply><m:power/>
+					<m:ci>x</m:ci>
+					<m:cn>2</m:cn>
+				</m:apply>
+				<m:cn>5</m:cn>
+			</m:apply>
+		</m:apply>
+	</m:apply>
+</m:apply>
+</m:math>
+		</para>
+	</problem>
+
+	<solution id="idm7165552">
+		<figure id="element-710"><media id="idp2380016" alt=""><image src="../../media/Interesting8.png" mime-type="image/png"/></media></figure>
+	</solution>
+</exercise>   
+  </content>
+  
+</document>

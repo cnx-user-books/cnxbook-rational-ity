@@ -1,0 +1,556 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+	<title>Finding the Domain of Simple Rational Functions</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0f6f4830-7417-46b5-813b-4d4bd71f5f35</md:uuid>
+</metadata>
+	<content>
+		<para id="element-21">For fractions, the denominator (the bottom) of the fraction cannot equal <m:math><m:cn>0</m:cn></m:math>. Determine <term>domain</term> restrictions by setting the denominator equal to <m:math><m:cn>0</m:cn></m:math> and solving. </para><example id="element-995"><para id="element-744">Find the domain of <m:math><m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:cn>1</m:cn><m:ci>x</m:ci></m:apply></m:apply>
+				</m:math>
+			</para><para id="element-742"><m:math><m:apply><m:set><m:bvar><m:ci>x</m:ci></m:bvar><m:condition><m:reln><m:neq/><m:ci>x</m:ci><m:cn>0</m:cn></m:reln></m:condition></m:set></m:apply></m:math></para></example>
+		<exercise id="element-1000"><problem id="idm3451568">
+				<para id="element-134">Find the domain of <m:math><m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:cn>1</m:cn><m:apply><m:minus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply></m:apply></m:apply>
+					</m:math></para></problem>
+			<solution id="idm1606944"><para id="element-625"><m:math><m:apply><m:set><m:bvar><m:ci>x</m:ci></m:bvar><m:condition><m:reln><m:neq/><m:ci>x</m:ci><m:cn>5</m:cn></m:reln></m:condition></m:set></m:apply></m:math> since <m:math><m:apply><m:reln><m:neq/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply><m:cn>0</m:cn></m:reln></m:apply></m:math>, <m:math><m:apply><m:reln><m:neq/><m:ci>x</m:ci><m:cn>5</m:cn></m:reln></m:apply></m:math></para>
+			</solution></exercise><exercise id="element-373"><problem id="idm10568624">
+				<para id="element-0">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:times/>
+										<m:cn>4</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+									<m:cn>3</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>7</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm1542688">
+				<para id="element-376"><m:math><m:apply><m:set><m:bvar><m:ci>x</m:ci></m:bvar><m:condition><m:reln><m:neq/><m:ci>x</m:ci><m:cn>7</m:cn></m:reln></m:condition></m:set></m:apply></m:math> since <m:math><m:apply><m:reln><m:neq/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>7</m:cn></m:apply><m:cn>0</m:cn></m:reln></m:apply></m:math>, <m:math><m:apply><m:reln><m:neq/><m:ci>x</m:ci><m:cn>7</m:cn></m:reln></m:apply></m:math></para>
+			</solution></exercise><exercise id="element-824"><problem id="idm1217984">
+				<para id="element-172">Find the domain of <m:math>
+						<m:apply><m:eq/><m:ci>y</m:ci><m:apply><m:divide/><m:apply><m:times/><m:cn>7</m:cn><m:ci>x</m:ci></m:apply><m:apply><m:minus/><m:cn>5</m:cn><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply></m:apply></m:apply></m:apply>
+					</m:math></para></problem>
+			<solution id="idm1004304">
+				<para id="element-410"><m:math><m:apply><m:set><m:bvar><m:ci>x</m:ci></m:bvar><m:condition><m:reln><m:neq/><m:ci>x</m:ci><m:apply><m:divide/><m:ci>5</m:ci><m:ci>2</m:ci></m:apply></m:reln></m:condition></m:set></m:apply></m:math> since <m:math><m:apply><m:neq/><m:apply><m:minus/><m:cn>5</m:cn><m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply></m:apply><m:cn>0</m:cn></m:apply></m:math>, <m:math><m:apply><m:neq/><m:ci>x</m:ci><m:apply><m:divide/><m:ci>5</m:ci><m:ci>2</m:ci></m:apply></m:apply></m:math>
+				</para>
+			</solution>
+		</exercise><exercise id="element-402"><problem id="idm1829312">
+				<para id="element-366">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>2</m:cn>
+								<m:apply>
+									<m:times/>
+									<m:apply>
+										<m:minus/>
+										<m:ci>x</m:ci>
+										<m:cn>3</m:cn>
+									</m:apply>
+									<m:apply>
+										<m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn>7</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm11943984">
+				<para id="element-337"><m:math>
+						<m:set>
+							<m:bvar><m:ci>x</m:ci></m:bvar>
+							<m:condition>
+								<m:apply>
+									<m:neq/>
+									<m:ci>x</m:ci>
+									<m:apply>
+										<m:or/>
+										<m:cn>3</m:cn>
+										<m:apply><m:minus/><m:cn>7</m:cn></m:apply>
+									</m:apply>
+								</m:apply>
+							</m:condition>
+						</m:set>
+					</m:math>  since 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math> and 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:minus/><m:cn>7</m:cn></m:apply>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise>
+		<exercise id="element-159"><problem id="idm10650256">
+				<para id="element-137">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:times/>
+									<m:cn>7</m:cn>
+									<m:ci>x</m:ci>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:minus/>
+										<m:apply>
+											<m:times/>
+											<m:cn>2</m:cn>
+											<m:apply>
+												<m:power/>
+												<m:ci>x</m:ci>
+												<m:cn>2</m:cn>
+											</m:apply>
+										</m:apply>
+										<m:apply>
+											<m:times/>
+											<m:cn>7</m:cn>
+											<m:ci>x</m:ci>
+										</m:apply>
+									</m:apply>
+									<m:cn>3</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm10814288">
+				<para id="element-524"><m:math>
+						<m:apply>
+							<m:set>
+								<m:bvar>
+									<m:ci>x</m:ci>
+								</m:bvar>
+								<m:condition>
+									<m:reln>
+										<m:neq/>
+										<m:ci>x</m:ci>
+										<m:apply><m:or/>
+											<m:apply>
+												<m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply>
+											<m:cn>3</m:cn>
+										</m:apply>
+									</m:reln>
+								</m:condition>
+							</m:set>
+						</m:apply>
+					</m:math> since <m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:minus/>
+									<m:apply>
+										<m:times/>
+										<m:cn type="integer">2</m:cn>
+										<m:apply>
+											<m:power/>
+											<m:ci>x</m:ci>
+											<m:cn type="integer">2</m:cn>
+										</m:apply>
+									</m:apply>
+									<m:apply>
+										<m:times/>
+										<m:cn type="integer">7</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+								</m:apply>
+								<m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, <m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:times/>
+								<m:apply>
+									<m:minus/>
+									<m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply>
+									<m:cn>1</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn>3</m:cn>
+								</m:apply>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,   <m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:minus/>
+								<m:apply><m:times/><m:cn>2</m:cn><m:ci>x</m:ci></m:apply>
+								<m:cn>1</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math> and <m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:minus/>
+								<m:ci>x</m:ci>
+								<m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:divide/><m:cn>1</m:cn><m:cn>2</m:cn></m:apply>
+						</m:apply>
+					</m:math>
+and
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise><exercise id="element-591"><problem id="idp2362000">
+				<para id="element-129"><m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:times/>
+										<m:cn>2</m:cn>
+										<m:ci>x</m:ci>
+									</m:apply>
+									<m:cn type="integer">1</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:power/>
+									<m:apply>
+										<m:plus/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">5</m:cn>
+									</m:apply>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm2305296">
+				<para id="element-146"><m:math>
+						<m:apply>
+							<m:set>
+								<m:bvar><m:ci>x</m:ci></m:bvar>
+								<m:condition>
+									<m:reln>
+										<m:neq/>
+										<m:ci>x</m:ci>
+										<m:apply><m:minus/><m:cn>5</m:cn></m:apply>
+									</m:reln>
+								</m:condition>
+							</m:set>
+						</m:apply>
+					</m:math> since
+
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:power/>
+								<m:apply><m:plus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply>
+								<m:cn>2</m:cn></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply></m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:plus/><m:ci>x</m:ci><m:cn>5</m:cn></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:apply><m:minus/><m:cn>5</m:cn></m:apply>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise><exercise id="element-632"><problem id="idm10683024">
+				<para id="element-499">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:plus/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">3</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:power/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">2</m:cn>
+									</m:apply>
+									<m:cn type="integer">25</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm4699200">
+				<para id="element-332"><m:math>
+						<m:apply>
+							<m:set>
+								<m:bvar><m:ci>x</m:ci></m:bvar>
+								<m:condition>
+									<m:reln>
+										<m:in/>
+										<m:ci>x</m:ci>
+										<m:reals/>
+									</m:reln>
+								</m:condition>
+							</m:set>
+						</m:apply>
+					</m:math> since 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:power/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">25</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+							<m:apply><m:minus/><m:cn>25</m:cn></m:apply>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:in/>
+							<m:ci>x</m:ci>
+							<m:reals/>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise><exercise id="element-392"><problem id="idm4321040">
+				<para id="element-40">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:apply>
+									<m:minus/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">7</m:cn>
+								</m:apply>
+								<m:apply>
+									<m:plus/>
+									<m:apply>
+										<m:power/>
+										<m:ci>x</m:ci>
+										<m:cn type="integer">2</m:cn>
+									</m:apply>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">-1</m:cn>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm4958480">
+				<para id="element-845"><m:math>
+						<m:apply>
+							<m:set>
+								<m:bvar><m:ci>x</m:ci></m:bvar>
+								<m:condition>
+									<m:reln>
+										<m:in/>
+										<m:ci>x</m:ci>
+										<m:reals/>
+									</m:reln>
+								</m:condition>
+							</m:set>
+						</m:apply>
+					</m:math> since 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:plus/>
+								<m:apply>
+									<m:power/>
+									<m:ci>x</m:ci>
+									<m:cn type="integer">2</m:cn>
+								</m:apply>
+								<m:cn type="integer">2</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:power/><m:ci>x</m:ci><m:cn>2</m:cn></m:apply>
+							<m:apply><m:minus/><m:cn>2</m:cn></m:apply>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:in/>
+							<m:ci>x</m:ci>
+							<m:reals/>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise><exercise id="element-858"><problem id="idm11905504">
+				<para id="element-734">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>5</m:cn>
+								<m:apply>
+									<m:abs/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm4024112">
+				<para id="element-166"><m:math><m:apply><m:set><m:bvar><m:ci>x</m:ci></m:bvar><m:condition><m:reln><m:neq/><m:ci>x</m:ci><m:cn>3</m:cn></m:reln></m:condition></m:set></m:apply></m:math>
+since 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:abs/><m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn></m:apply></m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply><m:minus/><m:ci>x</m:ci><m:cn>3</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>,
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:cn>3</m:cn>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise><exercise id="element-543"><problem id="idm5143232">
+				<para id="element-738">Find the domain of <m:math>
+						<m:apply>
+							<m:eq/>
+							<m:ci>y</m:ci>
+							<m:apply>
+								<m:divide/>
+								<m:cn>4</m:cn>
+								<m:apply>
+									<m:minus/>
+									<m:apply><m:abs/><m:ci>x</m:ci></m:apply>
+									<m:cn>4</m:cn>
+								</m:apply>
+							</m:apply>
+						</m:apply>
+					</m:math></para></problem>
+			<solution id="idm3954720">
+				<para id="element-486"><m:math>
+						<m:set>
+							<m:bvar><m:ci>x</m:ci></m:bvar>
+							<m:condition>
+								<m:apply>
+									<m:neq/>
+									<m:ci>x</m:ci>
+									<m:apply><m:or/>
+										<m:apply><m:minus/><m:cn>4</m:cn></m:apply>
+										<m:cn>4</m:cn>
+									</m:apply>
+								</m:apply>
+							</m:condition>
+						</m:set>
+					</m:math> since 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:minus/>
+								<m:apply>
+									<m:abs/>
+									<m:ci>x</m:ci>
+								</m:apply>
+								<m:cn>4</m:cn>
+							</m:apply>
+							<m:cn>0</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:apply>
+								<m:abs/>
+								<m:ci>x</m:ci>
+							</m:apply>
+							<m:cn>4</m:cn>
+						</m:apply>
+					</m:math>, 
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:cn>-4</m:cn>
+						</m:apply>
+					</m:math>
+and
+<m:math>
+						<m:apply>
+							<m:neq/>
+							<m:ci>x</m:ci>
+							<m:cn>4</m:cn>
+						</m:apply>
+					</m:math></para>
+			</solution></exercise>
+	</content>
+</document>
